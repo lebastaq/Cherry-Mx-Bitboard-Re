@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Cherry-Mx-Bitboard-Re-19.05mm-rescue_1N4148W-Diode
+# 1N4148W-Diode
 #
-DEF Cherry-Mx-Bitboard-Re-19.05mm-rescue_1N4148W-Diode D 0 40 N N 1 F N
+DEF 1N4148W-Diode D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "Cherry-Mx-Bitboard-Re-19.05mm-rescue_1N4148W-Diode" 0 -100 50 H V C CNN
+F1 "1N4148W-Diode" 0 -100 50 H V C CNN
 F2 "Diode_SMD:D_SOD-123" 0 -175 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -20,11 +20,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Cherry-Mx-Bitboard-Re-19.05mm-rescue_Conn_01x01-Connector_Generic
+# Conn_01x01-Connector_Generic
 #
-DEF Cherry-Mx-Bitboard-Re-19.05mm-rescue_Conn_01x01-Connector_Generic J 0 40 Y N 1 F N
+DEF Conn_01x01-Connector_Generic J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "Cherry-Mx-Bitboard-Re-19.05mm-rescue_Conn_01x01-Connector_Generic" 0 -100 50 H V C CNN
+F1 "Conn_01x01-Connector_Generic" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -37,11 +37,11 @@ X Pin_1 1 -200 0 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Cherry-Mx-Bitboard-Re-19.05mm-rescue_SW_Push-Switch
+# SW_Push-Switch
 #
-DEF Cherry-Mx-Bitboard-Re-19.05mm-rescue_SW_Push-Switch SW 0 40 N N 1 F N
+DEF SW_Push-Switch SW 0 40 N N 1 F N
 F0 "SW" 50 100 50 H V L CNN
-F1 "Cherry-Mx-Bitboard-Re-19.05mm-rescue_SW_Push-Switch" 0 -60 50 H V C CNN
+F1 "SW_Push-Switch" 0 -60 50 H V C CNN
 F2 "" 0 200 50 H I C CNN
 F3 "" 0 200 50 H I C CNN
 DRAW

@@ -1,14 +1,10 @@
-(module CherryMx_Socket (layer F.Cu) (tedit 5E144FDC)
+(module CherryMx_Socket (layer F.Cu) (tedit 5EAD9E3D)
   (fp_text reference SW1 (at 0 3.175 180) (layer F.SilkS) hide
     (effects (font (size 1.5 1.5) (thickness 0.2)))
   )
   (fp_text value SW_Push (at 0 -2.54) (layer Cmts.User) hide
     (effects (font (size 0.5 0.5) (thickness 0.1)))
   )
-  (fp_line (start -6.5 -6.5) (end 6.5 -6.5) (layer F.SilkS) (width 0.15))
-  (fp_line (start 6.5 -6.5) (end 6.5 6.5) (layer F.SilkS) (width 0.15))
-  (fp_line (start 6.5 6.5) (end -6.5 6.5) (layer F.SilkS) (width 0.15))
-  (fp_line (start -6.5 6.5) (end -6.5 -6.5) (layer F.SilkS) (width 0.15))
   (fp_arc (start 0 0) (end -0.25 0) (angle -180) (layer B.SilkS) (width 0.1))
   (fp_arc (start 0 0) (end 0.25 0) (angle -180) (layer B.SilkS) (width 0.1))
   (pad "" np_thru_hole circle (at 5.08 0) (size 2 2) (drill 2) (layers *.Cu *.Mask))
