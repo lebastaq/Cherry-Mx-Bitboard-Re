@@ -310,7 +310,7 @@
       (net 3 Row1))
   )
 
-  (module Footprints:Wirepad (layer F.Cu) (tedit 5EB03721) (tstamp 5EB0FEC4)
+  (module Footprints:Wirepad (layer F.Cu) (tedit 5EB08062) (tstamp 5EB0FEC4)
     (at 84.963 53.975)
     (path /5EB69C64)
     (fp_text reference Vcc2 (at 0 1.778) (layer F.SilkS) hide
@@ -319,7 +319,7 @@
     (fp_text value Conn_01x01 (at 0 -1.778) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad 1 thru_hole circle (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu F.Mask)
+    (pad 1 thru_hole circle (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 4 VCC))
   )
 
@@ -349,7 +349,7 @@
       (net 3 Row1))
   )
 
-  (module Footprints:Wirepad (layer F.Cu) (tedit 5EB037A4) (tstamp 5EB0FE2F)
+  (module Footprints:Wirepad (layer F.Cu) (tedit 5EB08083) (tstamp 5EB0FE2F)
     (at 100.203 54.864)
     (path /5EB66F22)
     (fp_text reference GND2 (at 0 1.778) (layer F.SilkS) hide
@@ -358,7 +358,7 @@
     (fp_text value Conn_01x01 (at 0 -1.778) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad 1 thru_hole rect (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu F.Mask)
+    (pad 1 thru_hole rect (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 7 GND))
   )
 
@@ -375,7 +375,7 @@
       (net 2 Col1))
   )
 
-  (module Footprints:Wirepad (layer F.Cu) (tedit 5EB03791) (tstamp 5EB0EB39)
+  (module Footprints:Wirepad (layer F.Cu) (tedit 5EB08067) (tstamp 5EB0EB39)
     (at 84.963 55.88)
     (path /5EB42BEB)
     (fp_text reference Dout1 (at 0 1.778) (layer F.SilkS) hide
@@ -384,11 +384,11 @@
     (fp_text value Conn_01x01 (at 0 -1.778) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad 1 thru_hole circle (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu F.Mask)
+    (pad 1 thru_hole circle (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 5 Dout))
   )
 
-  (module Footprints:Wirepad (layer F.Cu) (tedit 5EB03789) (tstamp 5EB0E570)
+  (module Footprints:Wirepad (layer F.Cu) (tedit 5EB0807A) (tstamp 5EB0E570)
     (at 100.203 51.054)
     (path /5EB45E0D)
     (fp_text reference Vcc1 (at 0 1.778) (layer F.SilkS) hide
@@ -397,11 +397,11 @@
     (fp_text value Conn_01x01 (at 0 -1.778) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad 1 thru_hole circle (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu F.Mask)
+    (pad 1 thru_hole circle (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 4 VCC))
   )
 
-  (module Footprints:Wirepad (layer F.Cu) (tedit 5EB0378C) (tstamp 5EB0DD5D)
+  (module Footprints:Wirepad (layer F.Cu) (tedit 5EB0806C) (tstamp 5EB0DD5D)
     (at 84.963 58.166)
     (path /5EB43F3B)
     (fp_text reference GND1 (at 0 1.778) (layer F.SilkS) hide
@@ -410,11 +410,11 @@
     (fp_text value Conn_01x01 (at 0 -1.778) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad 1 thru_hole rect (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu F.Mask)
+    (pad 1 thru_hole rect (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 7 GND))
   )
 
-  (module Footprints:Wirepad (layer F.Cu) (tedit 5EB03734) (tstamp 5EB0CB7A)
+  (module Footprints:Wirepad (layer F.Cu) (tedit 5EB08080) (tstamp 5EB0CB7A)
     (at 100.203 52.959)
     (path /5EB414D3)
     (fp_text reference Din1 (at 0 1.778) (layer F.SilkS) hide
@@ -423,7 +423,7 @@
     (fp_text value Conn_01x01 (at 0 -1.778) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad 1 thru_hole circle (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu F.Mask)
+    (pad 1 thru_hole circle (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 6 Din))
   )
 
@@ -543,7 +543,7 @@
   (gr_text C (at 89.0016 46.101) (layer B.SilkS) (tstamp 5EB0F55C)
     (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
   )
-  (gr_text R (at 100.4062 47.8536) (layer B.SilkS) (tstamp 5EB0F771)
+  (gr_text R (at 100.5332 47.8282) (layer B.SilkS) (tstamp 5EB0F771)
     (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
   )
   (gr_text R (at 84.9122 48.006) (layer B.SilkS) (tstamp 5EB0F555)
