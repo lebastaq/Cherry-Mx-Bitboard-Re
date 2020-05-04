@@ -16,18 +16,16 @@ $EndDescr
 $Comp
 L Cherry-Mx-Bitboard-Re-19.05mm-rescue:SW_Push-Switch SW1
 U 1 1 5B598EC8
-P 2000 4500
-F 0 "SW1" H 2000 4785 50  0000 C CNN
-F 1 "SW_Push" H 2000 4694 50  0000 C CNN
-F 2 "Footprints:CherryMx_Socket" H 2000 4700 50  0001 C CNN
-F 3 "" H 2000 4700 50  0001 C CNN
-	1    2000 4500
+P 1800 4350
+F 0 "SW1" H 1800 4635 50  0000 C CNN
+F 1 "SW_Push" H 1800 4544 50  0000 C CNN
+F 2 "Footprints:CherryMx_Socket" H 1800 4550 50  0001 C CNN
+F 3 "" H 1800 4550 50  0001 C CNN
+	1    1800 4350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2200 4500 2250 4500
-Wire Wire Line
-	1800 4500 1750 4500
 Wire Wire Line
 	1750 4500 1750 4600
 $Comp
@@ -187,72 +185,22 @@ $EndComp
 Wire Wire Line
 	2550 4900 2750 4900
 Wire Wire Line
-	2200 4900 2200 4700
-Connection ~ 2200 4500
-Wire Wire Line
 	2750 4900 2750 4500
 Connection ~ 2750 4500
 $Comp
 L Cherry-Mx-Bitboard-Re-19.05mm-rescue:SW_Push-Switch SW2
 U 1 1 5EAC5567
-P 2000 4700
-F 0 "SW2" H 2000 4985 50  0000 C CNN
-F 1 "SW_Push-Switch" H 2000 4894 50  0000 C CNN
-F 2 "keyswitches:Kailh_socket_PG1350" H 2000 4900 50  0001 C CNN
-F 3 "" H 2000 4900 50  0001 C CNN
-	1    2000 4700
+P 1800 4900
+F 0 "SW2" H 1800 5185 50  0000 C CNN
+F 1 "SW_Push-Switch" H 1800 5094 50  0000 C CNN
+F 2 "keyswitches:Kailh_socket_PG1350" H 1800 5100 50  0001 C CNN
+F 3 "" H 1800 5100 50  0001 C CNN
+	1    1800 4900
 	1    0    0    -1  
 $EndComp
-Connection ~ 2200 4700
-Wire Wire Line
-	2200 4700 2200 4500
-Wire Wire Line
-	1800 4700 1750 4700
 Wire Wire Line
 	1750 4700 1750 4600
 Connection ~ 1750 4600
-$Comp
-L Cherry-Mx-Bitboard-Re-19.05mm-rescue:1N4148W-Diode D3
-U 1 1 5EAE37ED
-P 2400 5250
-F 0 "D3" H 2400 5467 50  0000 C CNN
-F 1 "1N4148W-Diode" H 2400 5376 50  0000 C CNN
-F 2 "Footprints:1N4148W" H 2400 5075 50  0001 C CNN
-F 3 "" H 2400 5250 50  0001 C CNN
-	1    2400 5250
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	2550 5250 2750 5250
-Wire Wire Line
-	2750 5250 2750 4900
-Connection ~ 2750 4900
-Wire Wire Line
-	2250 5250 2200 5250
-Wire Wire Line
-	2200 5250 2200 4900
-Connection ~ 2200 4900
-$Comp
-L Cherry-Mx-Bitboard-Re-19.05mm-rescue:1N4148W-Diode D4
-U 1 1 5EAE84E4
-P 2400 5600
-F 0 "D4" H 2400 5817 50  0000 C CNN
-F 1 "1N4148W-Diode" H 2400 5726 50  0000 C CNN
-F 2 "Footprints:1N4148W" H 2400 5425 50  0001 C CNN
-F 3 "" H 2400 5600 50  0001 C CNN
-	1    2400 5600
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	2550 5600 2750 5600
-Wire Wire Line
-	2750 5600 2750 5250
-Connection ~ 2750 5250
-Wire Wire Line
-	2250 5600 2200 5600
-Wire Wire Line
-	2200 5600 2200 5250
-Connection ~ 2200 5250
 $Comp
 L LED:SK6812 D5
 U 1 1 5EB32545
@@ -394,4 +342,70 @@ Wire Wire Line
 Connection ~ 3850 5300
 Wire Wire Line
 	3850 5300 3850 5200
+Wire Wire Line
+	2200 4500 2200 4900
+Wire Wire Line
+	2200 4500 2200 4200
+Wire Wire Line
+	2200 4200 1600 4200
+Wire Wire Line
+	1600 4200 1600 4350
+Connection ~ 2200 4500
+Wire Wire Line
+	2000 4350 2000 4500
+Wire Wire Line
+	1750 4500 2000 4500
+Wire Wire Line
+	2000 4700 2000 4900
+Wire Wire Line
+	1750 4700 2000 4700
+Wire Wire Line
+	1600 4900 1600 5000
+Wire Wire Line
+	1600 5000 2200 5000
+Wire Wire Line
+	2200 5000 2200 4900
+Connection ~ 2200 4900
+$Comp
+L Cherry-Mx-Bitboard-Re-19.05mm-rescue:1N4148W-Diode D?
+U 1 1 5EB08F87
+P 2400 5300
+F 0 "D?" H 2400 5083 50  0000 C CNN
+F 1 "1N4148W" H 2400 5174 50  0000 C CNN
+F 2 "Footprints:1N4148W" H 2400 5125 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 2400 5300 50  0001 C CNN
+	1    2400 5300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Cherry-Mx-Bitboard-Re-19.05mm-rescue:1N4148W-Diode D?
+U 1 1 5EB08F8D
+P 2400 5700
+F 0 "D?" H 2400 5483 50  0000 C CNN
+F 1 "1N4148W" H 2400 5574 50  0000 C CNN
+F 2 "Footprints:1N4148W" H 2400 5525 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 2400 5700 50  0001 C CNN
+	1    2400 5700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2200 5300 2250 5300
+Connection ~ 2200 5000
+Wire Wire Line
+	2200 5000 2200 5300
+Wire Wire Line
+	2200 5300 2200 5700
+Wire Wire Line
+	2200 5700 2250 5700
+Connection ~ 2200 5300
+Wire Wire Line
+	2750 4900 2750 5300
+Wire Wire Line
+	2750 5300 2550 5300
+Connection ~ 2750 4900
+Wire Wire Line
+	2750 5300 2750 5700
+Wire Wire Line
+	2750 5700 2550 5700
+Connection ~ 2750 5300
 $EndSCHEMATC

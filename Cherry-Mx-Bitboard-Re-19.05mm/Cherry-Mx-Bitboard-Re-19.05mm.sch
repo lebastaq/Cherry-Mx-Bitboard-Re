@@ -366,4 +366,46 @@ Wire Wire Line
 Wire Wire Line
 	2200 5000 2200 4900
 Connection ~ 2200 4900
+$Comp
+L Cherry-Mx-Bitboard-Re-19.05mm-rescue:1N4148W-Diode D3
+U 1 1 5EB08F87
+P 2400 5300
+F 0 "D3" H 2400 5083 50  0000 C CNN
+F 1 "1N4148W" H 2400 5174 50  0000 C CNN
+F 2 "Footprints:1N4148W" H 2400 5125 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 2400 5300 50  0001 C CNN
+	1    2400 5300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Cherry-Mx-Bitboard-Re-19.05mm-rescue:1N4148W-Diode D4
+U 1 1 5EB08F8D
+P 2400 5700
+F 0 "D4" H 2400 5483 50  0000 C CNN
+F 1 "1N4148W" H 2400 5574 50  0000 C CNN
+F 2 "Footprints:1N4148W" H 2400 5525 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 2400 5700 50  0001 C CNN
+	1    2400 5700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2200 5300 2250 5300
+Connection ~ 2200 5000
+Wire Wire Line
+	2200 5000 2200 5300
+Wire Wire Line
+	2200 5300 2200 5700
+Wire Wire Line
+	2200 5700 2250 5700
+Connection ~ 2200 5300
+Wire Wire Line
+	2750 4900 2750 5300
+Wire Wire Line
+	2750 5300 2550 5300
+Connection ~ 2750 4900
+Wire Wire Line
+	2750 5300 2750 5700
+Wire Wire Line
+	2750 5700 2550 5700
+Connection ~ 2750 5300
 $EndSCHEMATC
