@@ -1,3 +1,5 @@
 (fp_lib_table
   (lib (name Footprints)(type KiCad)(uri "$(KIPRJMOD)/Footprints.pretty")(options "")(descr ""))
+  (lib (name keyswitches)(type KiCad)(uri /Users/smyjpmu/Documents/GitHub/keyswitches.pretty)(options "")(descr ""))
+  (lib (name customs)(type KiCad)(uri ${KIPRJMOD}/customs.pretty)(options "")(descr ""))
 )

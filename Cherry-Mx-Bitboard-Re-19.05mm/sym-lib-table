@@ -1,2 +1,3 @@
 (sym_lib_table
+  (lib (name Cherry-Mx-Bitboard-Re-19.05mm-rescue)(type Legacy)(uri ${KIPRJMOD}/Cherry-Mx-Bitboard-Re-19.05mm-rescue.lib)(options "")(descr ""))
 )
