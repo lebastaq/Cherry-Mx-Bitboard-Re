@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Cherry-Mx-Bitboard-Re-19.05mm-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
@@ -201,17 +202,6 @@ $EndComp
 Wire Wire Line
 	1750 4700 1750 4600
 Connection ~ 1750 4600
-$Comp
-L LED:SK6812 D5
-U 1 1 5EB32545
-P 3850 4700
-F 0 "D5" H 4194 4746 50  0000 L CNN
-F 1 "SK6812" H 4194 4655 50  0000 L CNN
-F 2 "customs:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm_FLIP" H 3900 4400 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 3950 4325 50  0001 L TNN
-	1    3850 4700
-	1    0    0    -1  
-$EndComp
 Text GLabel 3800 4200 1    60   Input ~ 0
 VCC
 Text GLabel 3850 5350 3    60   Input ~ 0
@@ -220,29 +210,14 @@ Text GLabel 3300 4300 0    60   Input ~ 0
 Din
 Text GLabel 5250 5200 2    60   Input ~ 0
 Dout
-$Comp
-L LED:SK6812 D6
-U 1 1 5EB36B3B
-P 4850 4700
-F 0 "D6" H 5194 4746 50  0000 L CNN
-F 1 "SK6812" H 5194 4655 50  0000 L CNN
-F 2 "customs:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm_FLIP" H 4900 4400 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf" H 4950 4325 50  0001 L TNN
-	1    4850 4700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3800 4200 3800 4400
 Wire Wire Line
-	3800 4400 3850 4400
-Wire Wire Line
 	4850 4400 4700 4400
-Connection ~ 3850 4400
 Wire Wire Line
 	3850 5000 4850 5000
 Wire Wire Line
 	3850 5350 3850 5300
-Connection ~ 3850 5000
 Wire Wire Line
 	3550 4300 3550 4700
 Wire Wire Line
@@ -337,8 +312,6 @@ F 3 "~" H 4700 4200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Connection ~ 4700 4400
-Wire Wire Line
-	4700 4400 3850 4400
 Connection ~ 3850 5300
 Wire Wire Line
 	3850 5300 3850 5200
@@ -408,4 +381,33 @@ Wire Wire Line
 Wire Wire Line
 	2750 5700 2550 5700
 Connection ~ 2750 5300
+$Comp
+L customs:SK6812MINI_E D5
+U 1 1 5ED8CEFA
+P 3850 4700
+F 0 "D5" H 4194 4746 50  0000 L CNN
+F 1 "SK6812MINI_E" H 4194 4655 50  0000 L CNN
+F 2 "customs:YS-SK6812MINI-E_REVERSE" H 3900 4400 50  0001 L TNN
+F 3 "" H 3950 4325 50  0001 L TNN
+	1    3850 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L customs:SK6812MINI_E D6
+U 1 1 5ED8E320
+P 4850 4700
+F 0 "D6" H 5194 4746 50  0000 L CNN
+F 1 "SK6812MINI_E" H 5194 4655 50  0000 L CNN
+F 2 "customs:YS-SK6812MINI-E_REVERSE" H 4900 4400 50  0001 L TNN
+F 3 "" H 4950 4325 50  0001 L TNN
+	1    4850 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 4400 3850 4400
+Connection ~ 3850 4400
+Wire Wire Line
+	3850 4400 4700 4400
+Connection ~ 3850 5000
+Connection ~ 4850 4400
 $EndSCHEMATC
